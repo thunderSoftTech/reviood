@@ -903,6 +903,29 @@ h4.panel-title{margin:10px 0px !important;}
     text-align: center;
 }
 
-
+.ym-meter-cover{
+    width: 100%;
+    overflow: hidden;
+}
+.ym-meter-img-drop{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    height: 96px;
+    width: 85px;
+}
+.ym-meter-rating{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    padding-top: 21px;
+}
+.data-show p{
+    margin-right: 35px;
+    margin-top: 12px;
+    font-size: 19px;
+    color: #994e9e;
+    text-align: right;
+}
 
     

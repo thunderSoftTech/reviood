@@ -15,8 +15,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/customRes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
 </head>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
 <body>
     <div class="main-wrapper">
         <!-- Header -->
@@ -54,7 +55,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link waves-effect" href="result.html">Result Page
+                                        <a class="nav-link waves-effect" href="result.png">Result Page
                                             <span class="sr-only">(current)</span>
                                         </a>
                                     </li>
@@ -445,7 +446,17 @@
                     <div class="col-md-4" style="text-align: center;">
                         <div class="ym-meter-center">
                             <div class="ym-meter-img-cover">
-                                <img src="./img/yum meter.png" class="ym-img">
+                                <div class="ym-meter-cover">
+                                    <div class="ym-meter-img-drop">
+                                        <img src="./img/YU.png" class="ym-img">
+                                    </div>
+                                       <div class="ym-meter-rating">
+                                            <div id="rateYo1" style="width: 200px !important;"></div>
+                                            <div id="data-show" class="data-show" style="width: 100%;">
+                                            <p>0.5</p>
+                                            </div> 
+                                       </div>
+                                </div>
                             </div>
                             <div class="yum-meter-center-reviews" style="text-align: center;">
                                 <h6> Ready to start giving reviews ?</h6>
@@ -1144,12 +1155,12 @@
         <section>
             <div class="container view-post">
                 <div class="row">
-                      <div class="col-md-3" style="margin: auto; text-align: center;">
+                    <div class="col-md-3" style="margin: auto; text-align: center;">
                         <a href="viewTimeline.html">
-                                <button type="submit" class="btn Rivew-btn full-btn " >View full timeline</button>
+                            <button type="submit" class="btn Rivew-btn full-btn ">View full timeline</button>
 
                         </a>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1457,10 +1468,9 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/js/mdb.min.js"></script>
     <script type="text/javascript" src="js/reviood.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
     <script type="text/javascript" src="js/img.js"></script>
-    <script>
-
-    </script>
+    <script type="text/javascript" src="js/ymmeter.js"></script>
 </body>
 
-</html>index.html
+</html>
